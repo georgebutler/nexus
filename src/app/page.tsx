@@ -1,10 +1,9 @@
-import World from "@/components/world";
-import Image from "next/image";
+import Renderer from "@/components/renderer";
 
 export default function Home() {
   return (
     <main>
-      <World></World>
+      <Renderer></Renderer>
     </main>
   );
 }
